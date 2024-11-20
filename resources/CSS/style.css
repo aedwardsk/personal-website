@@ -1,15 +1,18 @@
 body {
   background-color: rgb(105, 102, 102);
-  font-family: Georgia, Impact, "Arial Narrow Bold", sans-serif, "Bradley Hand";
+  font-family: Georgia, "Arial Narrow Bold", sans-serif, "Bradley Hand";
   font-size: 16px;
   padding-top: 89px;
 }
 
+/* Heading CSS */
 .name-header h1 {
   text-align: left;
   color: white;
   font-size: 2rem;
   padding-left: 15px;
+  font-family: "Arial Narrow Bold";
+  font-weight: 800;
 }
 
 nav {
@@ -20,7 +23,8 @@ nav {
   display: flex;
   width: 100%;
   top: 5px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  opacity: 0.8;
 }
 
 .links {
@@ -28,10 +32,14 @@ nav {
   width: 50%;
   justify-content: flex-end;
   padding-right: 20px;
+  font-family: "Arial Narrow Bold";
+  font-weight: 700;
 }
+
 .links a {
   padding: 2px 20px;
 }
+
 .profile-pic {
   width: 300px;
 }
@@ -47,4 +55,38 @@ a:visited {
 a:hover,
 a:active {
   background-color: black;
+}
+
+/* Main body */
+
+main {
+  background-color: rgb(180, 177, 177);
+  padding: 0px 0px 20px 15px;
+  margin-top: 15px;
+}
+
+.profile-pic {
+  padding-top: 10px;
+}
+
+h2.description {
+  font-weight: 600;
+}
+
+p#interest-box {
+  padding-right: 5px;
+  font-size: 1.4rem;
+}
+
+/* p {
+  font-size: 2rem;
+} */
+
+/* Quote */
+
+.quote-text-box {
+  font-family: "Bradley Hand";
+  font-size: 2rem;
+
+  padding-top: 40px;
 }
