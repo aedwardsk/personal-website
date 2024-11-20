@@ -2,25 +2,50 @@ body {
   background-color: rgb(105, 102, 102);
   font-family: Georgia, Impact, "Arial Narrow Bold", sans-serif, "Bradley Hand";
   font-size: 16px;
+  padding-top: 89px;
 }
 
 .name-header h1 {
   text-align: left;
   color: white;
   font-size: 2rem;
+  padding-left: 15px;
 }
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(180, 177, 177);
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 5px;
 }
 
 .links {
   display: inline-flex;
   width: 250px;
   justify-content: space-around;
+  padding-right: 20px;
 }
 
+.links a {
+  padding: 2px 20px;
+}
 .profile-pic {
   width: 300px;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: black;
 }
