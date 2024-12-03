@@ -41,7 +41,8 @@ nav {
 }
 
 .profile-pic {
-  width: 300px;
+  width: 45%;
+  padding-top: 10px;
 }
 
 a:link,
@@ -74,10 +75,6 @@ main {
   font-weight: 800;
 }
 
-.profile-pic {
-  padding-top: 10px;
-}
-
 h2.description {
   font-weight: 600;
 }
@@ -105,7 +102,25 @@ p#interest-box {
   .name-header h1 {
     display: none;
   }
+
   .name-header2 h1 {
     display: block;
+  }
+
+  .links {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .profile-pic {
+    width: 80%;
+    padding-top: 10px;
   }
 }
