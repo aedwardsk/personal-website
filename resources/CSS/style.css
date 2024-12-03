@@ -29,7 +29,7 @@ nav {
 
 .links {
   display: inline-flex;
-  width: 50%;
+  width: 55%;
   justify-content: flex-end;
   padding-right: 20px;
   font-family: "Arial Narrow Bold";
@@ -65,6 +65,15 @@ main {
   margin-top: 15px;
 }
 
+.name-header2 h1 {
+  display: none;
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  font-family: "Arial Narrow Bold";
+  font-weight: 800;
+}
+
 .profile-pic {
   padding-top: 10px;
 }
@@ -89,4 +98,14 @@ p#interest-box {
   font-size: 2rem;
 
   padding-top: 40px;
+}
+
+/* mobile site */
+@media only screen and (max-width: 600px) {
+  .name-header h1 {
+    display: none;
+  }
+  .name-header2 h1 {
+    display: block;
+  }
 }
