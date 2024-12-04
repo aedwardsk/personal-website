@@ -44,6 +44,7 @@ nav {
 .profile-pic {
   width: 45%;
   padding-top: 10px;
+  max-width: 500px;
 }
 
 a:link,
@@ -94,7 +95,6 @@ p#interest-box {
 .quote-text-box {
   font-family: "Bradley Hand";
   font-size: 2rem;
-
   padding-top: 40px;
 }
 
