@@ -3,6 +3,7 @@ body {
   font-family: Georgia, "Arial Narrow Bold", sans-serif, "Bradley Hand";
   font-size: 16px;
   padding-top: 89px;
+  box-sizing: border-box;
 }
 
 /* Heading CSS */
