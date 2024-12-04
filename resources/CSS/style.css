@@ -32,13 +32,13 @@ nav {
   display: inline-flex;
   width: 55%;
   justify-content: flex-end;
-  padding-right: 20px;
+  padding-right: 5px;
   font-family: "Arial Narrow Bold";
   font-weight: 700;
 }
 
 .links a {
-  padding: 2px 20px;
+  padding: 2px 7px;
 }
 
 .profile-pic {
@@ -110,8 +110,8 @@ p#interest-box {
 
   .links {
     display: inline-flex;
-    width: 100%;
-    justify-content: center;
+    width: 140%;
+    justify-content: space-evenly;
   }
 
   main {
@@ -123,5 +123,8 @@ p#interest-box {
   .profile-pic {
     width: 80%;
     padding-top: 10px;
+  }
+  .links a {
+    padding: 2px 7px;
   }
 }
