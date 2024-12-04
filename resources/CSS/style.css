@@ -66,6 +66,8 @@ main {
   background-color: rgb(180, 177, 177);
   padding: 0px 0px 20px 15px;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .name-header2 h1 {
@@ -95,7 +97,8 @@ p#interest-box {
 .quote-text-box {
   font-family: "Bradley Hand";
   font-size: 2rem;
-  padding-top: 40px;
+  padding-top: 10px;
+  margin-top: 0px;
 }
 
 /* mobile site */
@@ -115,10 +118,8 @@ p#interest-box {
   }
 
   main {
-    display: flex;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
   }
   .profile-pic {
     width: 80%;
@@ -127,4 +128,25 @@ p#interest-box {
   .links a {
     padding: 2px 7px;
   }
+}
+
+/* Contact page */
+
+.contact-page {
+  padding: 10px 10px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
 }
