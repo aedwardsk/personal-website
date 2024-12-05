@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
     <link href="../resources/CSS/style.css" rel="stylesheet" />
-    <script src="/script/javascript.js"></script>
-    <script src="/script/success.js"></script>
   </head>
   <body>
     <header>
@@ -26,7 +24,7 @@
     <main class="contact-page">
       <h1>Contact Me:</h1>
       <form id="form">
-        <fieldset>
+        <div class="fieldset">
           <label for="full-name"
             >Name:
             <br />
@@ -45,10 +43,11 @@
             <textarea id="message" name="message" rows="6" cols="50">
             </textarea>
           </label>
-        </fieldset>
+        </div>
         <br />
         <button type="submit" id="submit">Submit</button>
       </form>
     </main>
+    <script src="../script/javascript.js"></script>
   </body>
 </html>

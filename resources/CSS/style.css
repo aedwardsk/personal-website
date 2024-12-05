@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(105, 102, 102);
   font-family: Georgia, "Arial Narrow Bold", sans-serif, "Bradley Hand";
@@ -136,7 +142,7 @@ p#interest-box {
   padding: 10px 10px;
 }
 
-fieldset {
+.fieldset {
   display: flex;
   flex-direction: column;
 }
@@ -148,5 +154,9 @@ form {
 }
 
 input {
-  width: 100%;
+  width: 95%;
+}
+
+#message {
+  width: 95%;
 }
