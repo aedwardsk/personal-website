@@ -15,7 +15,7 @@ body {
 /* Heading CSS */
 .name-header h1 {
   text-align: left;
-  color: white;
+  color: black;
   font-size: 2rem;
   padding-left: 15px;
   font-family: "Arial Narrow Bold";
@@ -58,7 +58,7 @@ nav {
 
 a:link,
 a:visited {
-  color: white;
+  color: #213520;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -72,7 +72,7 @@ a:active {
 /* Main body */
 
 main {
-  background-color: rgb(180, 177, 177);
+  background-color: rgb(201 253 237);
   padding: 0px 0px 20px 15px;
   margin-top: 15px;
   display: flex;
@@ -83,7 +83,7 @@ main {
 .name-header2 h1 {
   display: none;
   text-align: left;
-  color: white;
+  color: black;
   font-size: 2rem;
   font-family: "Arial Narrow Bold";
   font-weight: 800;
